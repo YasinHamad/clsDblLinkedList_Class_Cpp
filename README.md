@@ -88,7 +88,7 @@ Output
 NULL <-> [ 10 ] <-> [ 20 ] <-> [ 30 ] <-> [ 40 ] <-> NULL
 ```
 
-## Function number 05, 06, and 07
+## Functions number 05, 06, and 07
 `int Size()`, it takes `O(1)`  
 `bool IsEmpty()`, it takes `O(1)`  
 `void Clear()`, clears the list from the heap, it takes `O(n)`    
@@ -200,10 +200,10 @@ Output
 ```output
 30
 ```
-## Function number 12, and 13
+## Functions number 12, and 13
 `void InsertAfter(Node* node, element_type data)`  
 `bool InsertAfter(int index, element_type data)`  
-Insert a node after another node, it takes `O(n)`  
+Insert a node after another node, they take `O(n)`  
 ```cpp
 clsDblLinkedList<int> my_list;
 my_list.InsertAtEnd(10);
@@ -225,7 +225,7 @@ NULL <-> [ 10 ] <-> [ 20 ] <-> [ 30 ] <-> [ 1111 ] <-> [ 1000 ] <-> [ 40 ] <-> [
 ```
 ## Function number 14
 `element_type GetItem(int index)`  
-Find and returns the value of a node, it takes `O(n)`  
+Finds and returns the value of a node, it takes `O(n)`  
 ```cpp
 clsDblLinkedList<int> my_list;
 my_list.InsertAtEnd(10);
