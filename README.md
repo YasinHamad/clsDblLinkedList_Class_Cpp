@@ -89,9 +89,9 @@ NULL <-> [ 10 ] <-> [ 20 ] <-> [ 30 ] <-> [ 40 ] <-> NULL
 ```
 
 ## Function number 05, 06, and 07
-`int Size()`  
-`bool IsEmpty()`  
-`void Clear()`  clears the list from the head  
+`int Size()`, it takes `O(1)`  
+`bool IsEmpty()`, it takes `O(1)`  
+`void Clear()`, clears the list from the heap, it takes `O(n)`    
 ```cpp
 clsDblLinkedList<int> my_list;
 my_list.InsertAtEnd(10);
