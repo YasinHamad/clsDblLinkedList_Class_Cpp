@@ -157,7 +157,7 @@ NULL <-> [ 50 ] <-> [ 40 ] <-> [ 30 ] <-> [ 20 ] <-> [ 10 ] <-> NULL
 ```
 ## Function number 10
 `Node* Find(element_type data)`  
-Finds and returns a node, it takes `O(n)`  
+Finds and returns a node by its value, it takes `O(n)`  
 ```cpp
 clsDblLinkedList<int> my_list;
 my_list.InsertAtEnd(10);
@@ -182,7 +182,7 @@ Output
 ```
 ## Function number 11
 `Node* GetNode(int index)`   
-Find a node by its index, it takes `O(n)`  
+Finds and returns a node by its index, it takes `O(n)`  
 ```cpp
 clsDblLinkedList<int> my_list;
 my_list.InsertAtEnd(10);
